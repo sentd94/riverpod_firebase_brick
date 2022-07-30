@@ -1,5 +1,5 @@
 name: riverpod_firebase_brick
-description: Adds Riverpod, Firebase Auth, Cloud Functions, Firestore to a default Flutter project and also provides a basic architecture for setting these services up in emulator suite. The boot_emulators files can be used to launch the emulators. Also adds Theme configurations as well as a Dark Mode Switch.
+description: Add Riverpod, Firebase Auth, Functions, Firestore to Flutter project. useEmulators arch. Theme & Dark Mode Switch.
 
 # The following defines the version and build number for your brick.
 # A version number is three numbers separated by dots, like 1.2.34
