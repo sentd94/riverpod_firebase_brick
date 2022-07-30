@@ -1,0 +1,28 @@
+name: riverpod_firebase_brick
+description: Adds Riverpod, Firebase Auth, Cloud Functions, Firestore to a default Flutter project and also provides a basic architecture for setting these services up in emulator suite. The boot_emulators files can be used to launch the emulators. Also adds Theme configurations as well as a Dark Mode Switch.
+
+# The following defines the version and build number for your brick.
+# A version number is three numbers separated by dots, like 1.2.34
+# followed by an optional build number (separated by a +).
+version: 0.1.0+1
+
+# The following defines the environment for the current brick.
+# It includes the version of mason that the brick requires.
+environment:
+  mason: ">=0.1.0-dev.26 <0.1.0"
+
+# Variables specify dynamic values that your brick depends on.
+# Zero or more variables can be specified for a given brick.
+# Each variable has:
+#  * a type (string, number, boolean, enum, or array)
+#  * an optional short description
+#  * an optional default value
+#  * an optional list of default values (array only)
+#  * an optional prompt phrase used when asking for the variable
+#  * a list of values (enums only)
+vars:
+  name:
+    type: string
+    description: The project name (same as you used for `flutter create {{name}}`)
+    default: new_flutter_project
+    prompt: The project name (same as you used for `flutter create {{name}}`)
